@@ -1,0 +1,91 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+*{
+    font-family: 'Amatic SC', cursive;
+    font-size: 19px;
+}
+/* Стили для меню */
+nav {
+    float: left;
+    width: 10%;
+    height: 187vh;
+    background-color: #f1f1f1;
+    overflow: auto;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 50px;
+}
+nav li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #ddd;
+}
+
+/* Стили для названия сайта */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Стили для основного содержимого сайта */
+.content {
+    margin-left: 12%; /* Чтобы контент был справа от меню */
+    padding: 1px 16px;
+    height: 1000px; /* Просто пример высоты */
+}
+.content h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.content p {
+    text-align: justify;
+
+}
+img{
+    width: 400px;
+
+}
+.textInTable {
+    
+    font-size: 18px;
+
+}
+table{
+    
+    margin-left: 0px;
+}
+td {
+    width:"300px";
+}
+.zagolovki{
+    font-size:50px;
+    color:rgb(51, 255, 0)
+}
+.modelname{
+    text-align: center;
+}
